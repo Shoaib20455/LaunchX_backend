@@ -1,0 +1,23 @@
+{
+  "name": "lx-presale",
+  "version": "1.0.0",
+  "description": "Launch X Coin ($LX) — Meteora Presale Vault",
+  "scripts": {
+    "create-vault": "ts-node createPresale.ts",
+    "postinstall": "patch-package"
+  },
+  "dependencies": {
+    "@meteora-ag/presale": "^0.1.0",
+    "@solana/web3.js": "^1.95.4",
+    "bn.js": "^5.2.1",
+    "decimal.js": "^10.6.0"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.6",
+    "@types/node": "^22.0.0",
+    "@types/node-fetch": "^2.6.13",
+    "patch-package": "^8.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}

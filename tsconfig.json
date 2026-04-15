@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "lib": ["ES2020"],
+    "strict": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node"
+  }
+}
+//spl-token transfer 2aKcHDpnqSYgfTqgkrBtnfs7H1pP74DytzJKDum9VYfe 1050000000 Bc7NFN6kakVixgtBZtiPKj7msRqHrgGd9Fx1J35pt1nn --allow-unfunded-recipient --allow-non-system-account-recipient --fund-recipient
